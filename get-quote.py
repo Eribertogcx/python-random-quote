@@ -6,7 +6,7 @@ def primary():
     quotes = f.readlines()
     f.close()
 
-    print(quotes[12])
+    print(quotes[random])
 
 if __name__== "__main__":
   primary()
